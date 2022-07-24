@@ -49,7 +49,8 @@ def go(args):
     run.summary['r2'] = r_squared
     run.summary['mae'] = mae
 
-
+    logger.info('Regression model tested!')
+    
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Test the provided model against the test dataset")
